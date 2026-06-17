@@ -1166,37 +1166,21 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   padding: 48px 24px;
 }
 .topic-pillar-card {
-  background: var(--c-white);
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-  margin-bottom: 32px;
-  border-left: 4px solid var(--c-gold);
+  border-bottom: 1px solid var(--c-border);
 }
 .pillar-header {
-  padding: 24px 28px;
+  padding: 22px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  border-bottom: 1px solid var(--c-border);
 }
 .pillar-left {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-.pillar-icon {
-  width: 48px;
-  height: 48px;
-  background: rgba(201,164,74,0.1);
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  flex-shrink: 0;
-}
+.pillar-icon { display: none; }
 .pillar-info {}
 .pillar-title {
   font-family: var(--ff-serif);
@@ -1207,41 +1191,28 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 }
 .pillar-meta { font-size: 12.5px; color: var(--c-gray-lt); }
 .pillar-expand {
-  width: 32px;
-  height: 32px;
-  border: 1px solid var(--c-border);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--c-gray);
-  font-size: 16px;
-  transition: all 0.25s;
+  font-size: 22px;
+  line-height: 1;
   flex-shrink: 0;
+  transition: transform 0.25s, color 0.25s;
 }
-.pillar-expand.open { background: var(--c-navy); border-color: var(--c-navy); color: white; transform: rotate(45deg); }
+.pillar-expand.open { color: var(--c-navy); transform: rotate(45deg); }
 .pillar-articles {
-  padding: 20px 28px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  padding: 2px 0 22px;
+  display: flex;
+  flex-direction: column;
 }
 .pillar-art-item {
-  padding: 14px 16px;
-  background: var(--c-bg);
-  border-radius: var(--radius-sm);
-  font-size: 13.5px;
+  padding: 11px 2px;
+  font-size: 14.5px;
   font-family: var(--ff-serif);
   color: var(--c-navy);
-  transition: background 0.2s, color 0.2s;
-  line-height: 1.5;
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
+  line-height: 1.6;
+  border-top: 1px solid var(--c-border);
+  transition: color 0.2s;
 }
-.pillar-art-item::before { content: '▶'; font-size: 8px; color: var(--c-gold); margin-top: 4px; flex-shrink: 0; }
-.pillar-art-item:hover { background: var(--c-gold); color: white; }
-.pillar-art-item:hover::before { color: white; }
+.pillar-art-item:hover { color: var(--c-gold); }
 
 /* ── About Page ── */
 .about-hero {
