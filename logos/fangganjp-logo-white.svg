@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <!-- Building icon -->
+  <rect x="4" y="16" width="8" height="28" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="12" height="36" fill="#FFFFFF"/>
+  <rect x="28" y="20" width="8" height="24" fill="#FFFFFF"/>
+  <!-- Gold accent line -->
+  <rect x="4" y="44" width="32" height="2" fill="#C9A44A"/>
+  <!-- Windows -->
+  <rect x="6" y="20" width="3" height="3" fill="#C9A44A"/>
+  <rect x="6" y="26" width="3" height="3" fill="#C9A44A"/>
+  <rect x="6" y="32" width="3" height="3" fill="#C9A44A"/>
+  <rect x="16" y="12" width="3" height="3" fill="#C9A44A"/>
+  <rect x="21" y="12" width="3" height="3" fill="#C9A44A"/>
+  <rect x="16" y="19" width="3" height="3" fill="#C9A44A"/>
+  <rect x="21" y="19" width="3" height="3" fill="#C9A44A"/>
+  <rect x="16" y="26" width="3" height="3" fill="#C9A44A"/>
+  <rect x="21" y="26" width="3" height="3" fill="#C9A44A"/>
+  <rect x="30" y="24" width="3" height="3" fill="#C9A44A"/>
+  <rect x="30" y="30" width="3" height="3" fill="#C9A44A"/>
+  <!-- Text -->
+  <text x="46" y="28" font-family="'Noto Serif TC', serif" font-size="18" font-weight="700" fill="#FFFFFF" letter-spacing="1">房感日報</text>
+  <text x="46" y="41" font-family="'Georgia', serif" font-size="9" font-weight="400" fill="#C9A44A" letter-spacing="3">FANGGANJP NEWS</text>
+</svg>
